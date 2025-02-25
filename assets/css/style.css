@@ -117,7 +117,7 @@
 .btn {
     background-color: hsl(45, 100%, 72%); /* Warna latar belakang menggunakan HSL */
     color: white; /* Warna teks putih */
-    padding: 6px 12px; /* Mengurangi padding atas-bawah dan kiri-kanan */
+    padding: 8px 14px; /* Mengurangi padding atas-bawah dan kiri-kanan */
     text-align: center; /* Teks di tengah */
     text-decoration: none; /* Menghilangkan garis bawah */
     display: inline-block; /* Menjadikan tombol inline */
