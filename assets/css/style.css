@@ -117,13 +117,12 @@
 .btn {
     background-color: hsl(45, 100%, 72%); /* Warna latar belakang menggunakan HSL */
     color: white; /* Warna teks putih */
-    padding: 8px 16px; /* Mengurangi padding atas-bawah dan kiri-kanan */
+    padding: 6px 12px; /* Mengurangi padding atas-bawah dan kiri-kanan */
     text-align: center; /* Teks di tengah */
     text-decoration: none; /* Menghilangkan garis bawah */
     display: inline-block; /* Menjadikan tombol inline */
-    font-size: 12px; /* Mengurangi ukuran font */
+    font-size: 10px; /* Mengurangi ukuran font */
     margin: 4px 2px; /* Margin */
-    cursor: pointer; /* Menunjukkan kursor pointer saat hover */
     border: none; /* Menghilangkan border */
     border-radius: 4px; /* Sudut membulat */
 }
