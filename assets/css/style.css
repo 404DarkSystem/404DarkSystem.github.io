@@ -116,8 +116,7 @@
 \*-----------------------------------*/
 .btn {
     display: inline-block;
-    margin-top: 1rem;
-    padding: 0.5rem 2rem;
+    padding: 15px 32px;
     background: hsl(45, 100%, 72%); /* Menggunakan warna HSL langsung di sini */
     color: #fff; /* Warna teks putih */
     cursor: pointer;
