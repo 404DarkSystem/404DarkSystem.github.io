@@ -125,6 +125,7 @@
     margin: 4px 2px; /* Margin */
     border: none; /* Menghilangkan border */
     border-radius: 4px; /* Sudut membulat */
+    box-sizing: border-box; /* Pastikan box-sizing diatur ke border-box */
 }
 
 .btn:hover {
