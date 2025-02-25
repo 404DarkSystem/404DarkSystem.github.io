@@ -122,7 +122,7 @@
     text-decoration: none; /* Menghilangkan garis bawah */
     display: inline-block; /* Menjadikan tombol inline */
     font-size: 12px; /* Mengurangi ukuran font */
-    margin: 4px 2px; /* Margin */
+    margin: 6px 4px; /* Margin */
     border: none; /* Menghilangkan border */
     border-radius: 4px; /* Sudut membulat */
     box-sizing: border-box; /* Pastikan box-sizing diatur ke border-box */
