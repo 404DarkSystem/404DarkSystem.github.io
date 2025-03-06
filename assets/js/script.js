@@ -119,7 +119,7 @@ function sendToWhatsApp(event) {
 
   // Membuat pesan untuk WhatsApp
   const whatsappMessage = `*Name:* ${fullname}%0A*Phone:* ${phone}%0A*Message:* ${message}`;
-  const whatsappNumber = '6285772570464'; // Nomor WhatsApp Anda dalam format internasional
+  const whatsappNumber = '085772570464'; // Nomor WhatsApp Anda dalam format internasional
   const whatsappUrl = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${whatsappMessage}`;
 
   // Mengarahkan pengguna ke WhatsApp
