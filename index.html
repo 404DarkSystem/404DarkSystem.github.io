@@ -664,7 +664,7 @@
                 <figure class="testimonials-avatar-box">
                   <img src="./assets/images/avatar-1.png" alt="Cowok" width="60" data-testimonials-avatar>
                 </figure>
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Zryys Softspokenn——</h4>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Zryys Softspokenn—</h4>
                 <div class="testimonials-text" data-testimonials-text>
                   <p>Tiktok : zryyspresettt_</p>
                   <p>Instagram : equanimityy_</p>
@@ -1063,27 +1063,22 @@
         </section>
 
         <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
-
-        </section>
+              <h3 class="h3 form-title">Contact Form</h3>
+          
+              <form action="#" class="form" data-form onsubmit="sendToWhatsApp(event)">
+                  <div class="input-wrapper">
+                      <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+                      <input type="text" name="phone" class="form-input" placeholder="Your Phone Number" required data-form-input>
+                  </div>
+          
+                  <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+          
+                  <button class="form-btn" type="submit" data-form-btn>
+                      <ion-icon name="paper-plane"></ion-icon>
+                      <span>Send Message</span>
+                  </button>
+              </form>
+          </section>
 
       </article>
 
